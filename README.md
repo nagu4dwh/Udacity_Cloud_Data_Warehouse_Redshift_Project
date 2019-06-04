@@ -32,9 +32,9 @@
     <li><a href="https://github.com/Johnny512/Data_Warehouse_Redshift/blob/master/create_tables.py">create_tables.py</a> - drops and creates the tables above</li>
     <ul>drop_tables function - executes all DROP TABLE commands that were imported from <b><em>drop_table_queries</em></b></ul>
     <ul>create_tables function - executes all CREATE TABLE statements that were imported from <b><em>create_table_queries</em></b></ul>
-    <li>etl.py - Extracts raw data from S3 buckets and Transforms data then Loads into Fact and Dimension tables</li>
+    <li><a href="https://github.com/Johnny512/Data_Warehouse_Redshift/blob/master/etl.py">etl.py</a> - Extracts raw data from S3 buckets and Transforms data then Loads into Fact and Dimension tables</li>
     <ul>load_staging_tables function - executes all COPY commands imported from <b><em>copy_table_queries</em></b> from S3 buckets</ul>
     <ul>insert_tables function - executes all INSERT commands imported from <b><em>insert_table_queries</em></b> to Fact and Dimension tables</ul>
-    <li>sql_queries.py - holds variables with all SQL commands used in the project</li>
+    <li><a href="https://github.com/Johnny512/Data_Warehouse_Redshift/blob/master/sql_queries.py">sql_queries.py</a> - holds variables with all SQL commands used in the project</li>
     <ul>DROP, CREATE, COPY, INSERT</ul>
 </ol>
