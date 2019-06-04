@@ -29,7 +29,7 @@
  <b><h1>ETL Pipeline</h1></b>
  <h2>Project Files</h2>
  <ol>
-    <li>[create_tables.py](https://github.com/Johnny512/Data_Warehouse_Redshift/blob/master/create_tables.py) - drops and creates the tables above</li>
+    <li><a href="https://github.com/Johnny512/Data_Warehouse_Redshift/blob/master/create_tables.py">create_tables.py</a> - drops and creates the tables above</li>
     <ul>drop_tables function - executes all DROP TABLE commands that were imported from <b><em>drop_table_queries</em></b></ul>
     <ul>create_tables function - executes all CREATE TABLE statements that were imported from <b><em>create_table_queries</em></b></ul>
     <li>etl.py - Extracts raw data from S3 buckets and Transforms data then Loads into Fact and Dimension tables</li>
